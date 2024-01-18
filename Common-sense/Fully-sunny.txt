@@ -70,19 +70,3 @@ Remember, safety should always be your top priority while driving.
 
 By following these steps, you can ensure a safe and law-abiding drive.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-1. Slow Down: The first action you should take is to reduce your speed to adhere to the speed limit. You are currently driving at 50.60615457034512 km/h, but the speed limit is 40 km/h. Gradually decrease your speed to avoid any sudden braking.
-
-2. Maintain Safe Distance: The vehicle in front of you is approximately 6.715040687458678 meters away. To maintain a safe distance, follow the "three-second rule". Choose a fixed point that the vehicle in front of you passes, and count the time it takes for you to reach the same point. If it's less than three seconds, you're too close and should slow down.
-
-3. Stay Alert: Keep an eye on the vehicle in front of you. The detection confidence score is 75, which means there's a high probability that it's a vehicle. Be prepared to react if it changes speed or direction.
-
-4. Keep Right: Since you are moving in the left direction and the vehicle is on the right side, you should consider moving to the right lane if it's safe and clear. This will help you maintain a safe distance from the vehicle and also adhere to the "keep right unless overtaking" rule.
-
-5. Monitor Weather Conditions: Although the weather is currently sunny and clear, always stay alert for any changes in weather conditions that could affect your driving.
-
-6. Use Car's Technology: Utilize your car's sensors and cameras to stay aware of your surroundings and any potential hazards. They can provide valuable information about the road conditions, traffic, and other vehicles.
-
-7. Follow Traffic Rules: Always adhere to traffic rules and regulations. They are designed to ensure the safety of all road users. 
-
-Remember, safe driving is not just about following rules but also about being aware of your surroundings and being prepared to react to unexpected situations.

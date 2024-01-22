@@ -16,3 +16,7 @@ Heavy rainy:
 
 https://github.com/Mehdiazarafza/Hybrid-reasoning/assets/77500956/99b9428b-28a8-40c7-92f8-b39076c735a4
 
+
+
+https://github.com/Mehdiazarafza/Hybrid-reasoning/assets/77500956/eb487b29-a66a-4482-bc67-4748548829c6
+

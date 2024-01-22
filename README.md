@@ -2,9 +2,8 @@
 Repository for hybrid reasoning
 
 
-<div align="center">
-  <video src="(https://github.com/Mehdiazarafza/Hybrid-reasoning/assets/77500956/c49cc205-cf43-4946-bb99-fc86e0753eee)https://github.com/Mehdiazarafza/Hybrid-reasoning/assets/77500956/c49cc205-cf43-4946-bb99-fc86e0753eee" width="400" />
-</div>
 
 
+
+https://github.com/Mehdiazarafza/Hybrid-reasoning/assets/77500956/02a800e5-487f-47bf-8623-ae4ce619594a
 

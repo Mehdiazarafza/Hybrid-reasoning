@@ -3,5 +3,6 @@ Repository for hybrid reasoning
 
 
 
-https://github.com/Mehdiazarafza/Hybrid-reasoning/assets/77500956/0181e43a-0152-406e-945d-51c9b3e98176
+
+https://github.com/Mehdiazarafza/Hybrid-reasoning/assets/77500956/c49cc205-cf43-4946-bb99-fc86e0753eee
 

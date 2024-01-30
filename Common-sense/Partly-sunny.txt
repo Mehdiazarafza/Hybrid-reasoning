@@ -77,20 +77,4 @@ Based on the information provided, here are the steps you should follow:
 6. Use Your Car's Technology: Continue to use your car's sensors and cameras to help you maintain a safe speed and distance from other vehicles. They can also alert you to potential hazards.
 
 Remember, safe driving is not just about following the rules, but also about being aware of your surroundings and being prepared to react to unexpected situations.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Based on the information provided, here are the steps you should follow:
-
-1. Maintain your current speed: You are currently driving at 40.23331695704972 kilometers per hour, which is slightly above the speed limit of 40 km/h. However, the difference is negligible and likely within the tolerance of most speed detection systems. Therefore, you should maintain your current speed to adhere to the speed limit.
-
-2. Keep a safe distance from the vehicle in front: The vehicle in front of you is approximately 5.2 meters away. The recommended safe following distance is at least 2 seconds behind the vehicle in front of you. If you are closer than this, you should gently apply the brakes to increase your following distance.
-
-3. Stay alert and monitor the vehicle in front: Your car's sensors have detected the vehicle in front with a confidence score of 79. This means the sensors are fairly certain there is a vehicle in front of you. Keep an eye on this vehicle and be prepared to react if it slows down or stops suddenly.
-
-4. Monitor the weather conditions: The weather is partly sunny with a few clouds, which should not significantly affect driving conditions. However, you should still be aware of any changes in the weather that could affect visibility or road conditions.
-
-5. Stay in your lane: You mentioned that your car is moving in the direction of left. Make sure you are staying in your lane and not drifting towards the left. If you need to change lanes, remember to use your turn signal and check your mirrors and blind spot before moving over.
-
-6. Keep an eye on the road signs: Your car's sensors have detected a speed limit sign. Be aware of other road signs that may indicate changes in the speed limit, road conditions, or upcoming turns or exits.
-
-By following these steps, you can ensure that you are driving safely and responsibly.

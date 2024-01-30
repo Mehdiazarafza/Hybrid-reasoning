@@ -22,7 +22,7 @@ Answer from LLM:
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+Answer from LLM:
 1. Slow Down: The first action you should take is to reduce your speed to adhere to the speed limit. You are currently driving at 50.6 km/h, but the speed limit is 40 km/h. Gradually apply the brakes to slow down your vehicle.
 
 2. Maintain Safe Distance: The vehicle in front of you is approximately 6.7 meters away. To maintain a safe distance, follow the "three-second rule". Choose a fixed point that the vehicle in front of you passes, and count the time it takes for you to reach the same point. If it's less than three seconds, you're too close and need to slow down a bit.
@@ -43,6 +43,7 @@ Answer from LLM:
 5. Weather Conditions: The statement that "no additional precautions are needed for weather conditions" is not entirely accurate.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Answer from LLM:
 
 1. Slow Down: The first action you should take is to reduce your speed. You are currently driving at a speed of 50.60615457034512 km/h, which is above the speed limit of 40 km/h detected by your car's sensors. To adhere to the speed limit, you should gradually decrease your speed until you reach 40 km/h.
 
@@ -69,6 +70,7 @@ Answer from LLM:
 4-Focus on Traffic Rules Over Proactive Driving: The text emphasizes following traffic rules, but it should also stress proactive driving practices, such as anticipating hazards.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Answer from LLM:
 
 Firstly, you should reduce your speed to adhere to the 40 km/h speed limit. This can be done by gently applying the brakes until you reach the desired speed. 
 
@@ -94,6 +96,7 @@ Lastly, keep monitoring your car's sensors and cameras for any changes in the ro
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Asnwer from LLM:
 
 1. Slow Down: The first action you should take is to reduce your speed. You are currently driving at 50.6 km/h, but the speed limit sign detected by your car's sensors indicates a limit of 40 km/h. To adhere to this limit, you should gradually decrease your speed until you reach 40 km/h. 
 

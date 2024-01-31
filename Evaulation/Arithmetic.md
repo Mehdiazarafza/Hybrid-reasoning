@@ -227,3 +227,10 @@ Therefore, you should decrease your speed by approximately 1.084 m/s to comply w
 1- Oversimplified Deceleration: The advice suggests a fixed deceleration rate of 1.083953902322386 m/s for the entire speed reduction process. However, real-world deceleration should be more gradual. 
 
 2-Overemphasis on Ideal Conditions: The advice presents calculations based on ideal conditions, neglecting factors like driver reaction time, braking distance, and the behavior of other drivers. Safe driving involves anticipating and adapting to potential hazards in real-world situations.
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Partly Sunny
+

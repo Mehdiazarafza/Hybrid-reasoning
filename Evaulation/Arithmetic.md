@@ -466,6 +466,8 @@ Now, we convert the speed from km/h to m/s because it's the standard unit of spe
 Now, we calculate the speed change per second:
 
 Speed change per second = Δv / t
+
+
 3-    Speed change per second = -1.236653 m/s / 5 s
 Speed change per second = -0.247331 m/s
 
@@ -480,6 +482,8 @@ Safe distance (d) = Speed (v) * Time (t)
 Assuming you've slowed down to the speed limit (40 km/h or 11.1111 m/s), the safe distance would be:
 
 d = v * t
+
+
 4-   d = 11.1111 m/s * 2 s
 d = 22.2222 meters
 

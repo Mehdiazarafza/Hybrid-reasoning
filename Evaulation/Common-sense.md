@@ -154,7 +154,7 @@ Answer from LLM:
 6. Regularly check your mirrors: Regularly check your rear-view and side mirrors to be aware of other vehicles around you. This will help you to react quickly if another vehicle is approaching too fast or is about to overtake you.
 
 
- ```Evaluate  answer```: 
+ ```Evaluate answer```: 
  
 1-  Overlooking Speed Adjustment: The statement "maintain your current speed" is potentially misleading as the driver is slightly exceeding the speed limit. It would be more accurate to recommend slowing down slightly to match the speed limit.
 
@@ -177,7 +177,7 @@ Answer from LLM:
 
 6. Follow Traffic Rules: Always adhere to traffic rules and regulations, including speed limits and road signs.
 
- ```Evaluate  answer```: 
+ ```Evaluate answer```: 
  
  1. Speed Recommendation: The statement "gradually reduce your speed to 40 km/h" is not accurate, exact amount would be better.
    
@@ -201,7 +201,7 @@ Answer from LLM:
 
 6. Pay attention to road signs: Your car's sensors have detected a speed limit sign. Make sure you are paying attention to all road signs and adjusting your driving accordingly.
 
- ```Evaluate  answer```: 
+ ```Evaluate answer```: 
  
 1- Speed Accuracy: The statement "the difference is negligible and likely within the tolerance of most speed detection systems" suggests that exceeding the speed limit slightly is acceptable. However, it's crucial to maintain the exact speed limit.
 
@@ -225,7 +225,7 @@ Answer from LLM:
 5. Monitor Your Car's Sensors: Your car's sensors and cameras are there to assist you. Keep an eye on their readings and alerts to help you maintain safe driving conditions.
 
 
- ```Evaluate  answer```: 
+ ```Evaluate answer```: 
 
 1. Lack of Specificity in Speed Reduction: The statement "gradually reduce your speed to 40 km/h or less" is too ambiguous. It would be more helpful to recommend a specific deceleration rate.
    
@@ -250,7 +250,8 @@ Asnwer from LLM:
 
 6. Use Your Car's Technology: Continue to use your car's sensors and cameras to help you maintain a safe speed and distance from other vehicles. They can also alert you to potential hazards.
 
-```Evaluate  answer```: 
+```Evaluate answer```: 
+
 1. Inaccurate Speed Recommendation: The statement "slow down to 40 km/h" is inaccurate. The driver is currently driving at 40.23 km/h, which is slightly above the speed limit. It would be more accurate to give precisie reduce speed.
 2.  Imprecise Safe Distance Guidance: The statement "as a rule of thumb, for every 16 km/h you should maintain at least one car length distance" is general answer.
 3.  Inadequate Directional Checks: The statement "make sure you are not drifting into the oncoming lane" is a good reminder, but it doesn't provide specific guidance on how to maintain a consistent lane position.
@@ -258,4 +259,30 @@ Asnwer from LLM:
 5.  Reliance on Sensor Technology: While sensors and cameras can be helpful, drivers should not solely rely on them. Always confirm sensor readings with visual observations and maintain a safe driving distance.
 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Heavy rainy
+
+Answer from LLM
+
+1. Reduce Speed: Given the heavy precipitation and foggy conditions, it's crucial to reduce your speed. Even though you're currently driving at 43.216779923988035 kilometers per hour, the speed limit sign indicates a maximum speed of 40 km/h. Therefore, you should immediately slow down to adhere to the speed limit. 
+
+2. Maintain Safe Distance: The vehicle in front of you is approximately 15.282174193286437 meters away. Considering the weather conditions, you should increase this distance to ensure you have enough time to react if the vehicle in front of you suddenly stops or slows down. 
+
+3. Use Fog Lights: If your car is equipped with fog lights, turn them on. They can help improve visibility in foggy conditions.
+
+4. Stay Alert: Keep an eye on the vehicle in front of you and the road conditions. Your car's sensors have detected the vehicle with a confidence score of 91, which is quite high. However, human vigilance is still necessary.
+
+5. Use Windshield Wipers and Defrosters: To improve visibility, make sure your windshield wipers are on and working properly. Also, use your car's defrosters to keep the windows clear of fog.
+
+6. Stay in Your Lane: Since your car is moving in the right direction, make sure you stay in your lane and avoid any sudden lane changes, which could be dangerous in these conditions.
+
+7. Plan Your Moves: Plan any necessary lane changes or turns well in advance and signal appropriately to let other drivers know your intentions.
+
+8. Avoid Distractions: Keep your focus solely on the road. Avoid using your phone or getting distracted by anything else inside the car.
+
+9. Be Prepared to Stop: Given the weather conditions, be prepared to stop if visibility becomes too poor or if road conditions worsen.
+
+
+ ```Evaluate answer```: 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

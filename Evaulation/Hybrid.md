@@ -652,3 +652,91 @@ Therefore, the SPEED_CONTROL list is [44.9388, 44.6499, 44.3610, 44.0721, 40] an
 2- Unrealistic Deceleration Rate: Assuming a fixed deceleration rate ignores the impact of wet roads on braking performance.
 
  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Answer from LLM:
+
+The actions you should take are:
+
+1. Slow down to the speed limit of 40 km/h.
+2. Be prepared to stop or slow down further if the person detected in front of the car does not move out of the way.
+
+To calculate the exact speed you should maintain for every subsequent second, we need to know the current speed of the car, the desired speed, and the time it should take to reach that speed. 
+
+Given:
+- Current speed (V1) = 45.22770823152422 km/h = 12.563808397645617 m/s (since 1 km/h = 0.277778 m/s)
+- Desired speed (V2) = 40 km/h = 11.11111111111111 m/s
+- Distance to the person (d) = 15.21713354237239 m
+
+Assuming a constant deceleration (a), the time (t) it will take to reach the desired speed can be calculated using the equation:
+
+V2 = V1 - a*t
+
+Rearranging for t gives:
+
+t = (V1 - V2) / a
+
+The distance covered during this time can be calculated using the equation:
+
+d = V1*t - 0.5*a*t^2
+
+Rearranging for a gives:
+
+a = (2*(V1*t - d)) / t^2
+
+Substituting the values gives:
+
+a = (2*(12.563808397645617*t - 15.21713354237239)) / t^2
+
+Solving this equation for t and then substituting back into the equation for a will give the deceleration required.
+
+The exact amount to decrease the speed of the car will be:
+
+V1 - V2 = 12.563808397645617 m/s - 11.11111111111111 m/s = 1.452697286534507 m/s
+
+Assuming the throttle and brake controls are linear, the amount of throttle or brake to apply can be calculated as:
+
+THROTTLE = (V2 / V1) = 0.884618
+BRAKE = 1 - THROTTLE = 0.115382
+
+Therefore, the SPEED_CONTROL and BRAKE_CONTROL lists would look like:
+
+SPEED_CONTROL = [0.884618, 0.884618, 0.884618, ...] (repeated for as many seconds as it takes to reach the desired speed)
+BRAKE_CONTROL = [0.115382, 0.115382, 0.115382, ...] (repeated for as many seconds as it takes to reach the desired speed)
+
+```Evaluate answer```: 
+
+1-The approach of calculating the exact amount to decrease the speed of the car based on the difference between the current speed and the desired speed may not be appropriate in all driving scenarios
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Answer from LLM:
+
+
+Given the conditions, the first action you should take is to slow down to the speed limit of 40 km/h. This is because you are currently exceeding the speed limit. Additionally, the presence of a person on the front side of your car, especially in foggy and heavy precipitation conditions, necessitates caution.
+
+To calculate the exact speed you should maintain for every subsequent second, we need to consider the following factors:
+
+1. Your current speed: 45.84997952385415 km/h
+2. The speed limit: 40 km/h
+3. The distance to the person: 9.757449951292637 meters
+4. The detection confidence score: 57 (This is not directly relevant to speed calculation, but it indicates the reliability of the detection)
+
+First, convert the speeds from km/h to m/s for easier calculations. 1 km/h is approximately 0.277778 m/s. So, your current speed is approximately 12.736 m/s, and the speed limit is approximately 11.111 m/s.
+
+Next, calculate the time it will take to reach the person at your current speed. This is done by dividing the distance by the speed. So, it will take approximately 0.766 seconds to reach the person at your current speed.
+
+To slow down to the speed limit within this time, you need to decrease your speed by approximately 1.625 m/s. This can be calculated by subtracting the speed limit from your current speed.
+
+To calculate the exact amount of throttle and brake to apply, we need to know the car's acceleration and deceleration rates. However, since this information is not provided, we can only provide a general guideline: to decrease speed, apply less throttle and more brake; to increase speed, apply more throttle and less brake.
+
+Assuming a linear relationship between speed and throttle/brake application, and that the car is currently at full throttle (1) and no brake (0), we can calculate the new throttle and brake values. To decrease speed by approximately 1.625 m/s, decrease the throttle by approximately 0.127 (1.625/12.736) and increase the brake by the same amount.
+
+Here are the lists you requested:
+
+```Evaluate answer```: 
+
+1- Assumption of Full Throttle: Assuming the car is currently at full throttle (1) and no brake (0) may not be realistic, but for CARLA, we can consider it is not completely wrong.
+SPEED_CONTROL = [0.873, 0.746, 0.619, 0.492, 0.365, 0.238, 0.111, 0]
+BRAKE_CONTROL = [0.127, 0.254, 0.381, 0.508, 0.635, 0.762, 0.889, 1]
+

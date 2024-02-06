@@ -444,3 +444,141 @@ BRAKE_CONTROL = [0.239204693854719, 0.239204693854719, 0.239204693854719, 0.2392
 1- Unrealistic Deceleration Rate: Assuming a fixed deceleration rate of -0.139 m/s² ignores variations in actual braking performance on uneven surfaces due to partly sunny weather.
 
 2-  Ignoring Reaction Time: The delay between perceiving a need to slow down and actually braking is not considered.
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Heavy Rainy
+
+Answer from LLM:
+
+The actions you should take are:
+
+1. Slow down to the speed limit of 40 km/h.
+2. Be prepared to stop or slow down further if the person in front of you makes any sudden movements.
+
+To calculate the exact speed you should maintain for every subsequent second, we need to know the current speed, the desired speed, and the time it takes for the car to decelerate. 
+
+Let's assume that the car decelerates at a constant rate. The formula for deceleration is:
+
+    a = (v_f - v_i) / t
+
+where:
+    a is deceleration,
+    v_f is the final velocity (desired speed),
+    v_i is the initial velocity (current speed), and
+    t is time.
+
+Plugging in the given values:
+
+    a = (40 km/h - 45.22770823152422 km/h) / t
+
+We need to find 't', the time it takes for the car to decelerate to the desired speed. Let's assume it takes 5 seconds. So:
+
+    a = -1.0455416463048444 km/h/s
+
+This is the deceleration needed to slow down to the speed limit in 5 seconds.
+
+Now, we need to calculate the exact speed for every subsequent second. We can use the formula:
+
+    v = v_i + a*t
+
+For t = 1, 2, 3, 4, 5, we get the speeds:
+
+    v_1 = 44.182166585219376 km/h
+    v_2 = 43.13662593891453 km/h
+    v_3 = 42.09108529260969 km/h
+    v_4 = 41.04554464630485 km/h
+    v_5 = 40 km/h
+
+Now, we need to calculate the throttle and brake values. Let's assume that the throttle and brake values are linearly related to the speed. We can use the formula:
+
+    throttle_or_brake = (v - v_min) / (v_max - v_min)
+
+where:
+    v is the current speed,
+    v_min is the minimum speed (0 km/h for throttle, 40 km/h for brake), and
+    v_max is the maximum speed (45.22770823152422 km/h for throttle, 0 km/h for brake).
+
+Using this formula, we get the following throttle and brake values:
+
+SPEED_CONTROL = [0.9230769230769231, 0.8461538461538461, 0.7692307692307693, 0.6923076923076923, 0.6153846153846154]
+BRAKE_CONTROL = [0.07692307692307693, 0.15384615384615385, 0.23076923076923078, 0.3076923076923077, 0.38461538461538464]
+
+
+```Evaluate answer```: 
+
+1- Unrealistic Deceleration Rate: Assuming a fixed deceleration rate ignores the impact of wet roads on braking performance.
+
+2- Dynamic Following Distance: While not explicitly mentioned, relying solely on speed calculations ignores the need to significantly increase following distance due to reduced visibility and longer braking distances in heavy rain
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Answer from LLM:
+
+Given the conditions, the first action you should take is to slow down to the speed limit of 40 km/h. The presence of a person on the front side of your car with a detection confidence score of 55 and a distance of approximately 15.21713354237239 meters also necessitates caution.
+
+To calculate the exact speed you should maintain for every subsequent second, we need to consider the current speed, the speed limit, and the distance to the person. 
+
+Let's assume that the car decelerates uniformly. The formula to calculate the final speed (v) when you know the initial speed (u), acceleration (a), and distance (s) is:
+
+v^2 = u^2 + 2as
+
+We want to find the acceleration needed to reach the speed limit within the distance to the person. Rearranging the formula for acceleration gives:
+
+a = (v^2 - u^2) / (2s)
+
+Substituting the given values:
+
+a = ((40 km/h)^2 - (45.22770823152422 km/h)^2) / (2 * 15.21713354237239 m)
+
+Note: We need to convert the speeds from km/h to m/s by multiplying by 1000/3600.
+
+After calculating the required deceleration, we can calculate the speed for each subsequent second using the formula:
+
+v = u + at
+
+where t is the time in seconds.
+
+The throttle and brake controls should be adjusted based on the calculated deceleration. If the deceleration is positive, apply the brake; if it's negative, apply the throttle. The exact amount to apply can be calculated by mapping the deceleration to the range 0-1.
+
+Here's a Python code snippet that calculates the SPEED_CONTROL and BRAKE_CONTROL lists:
+
+
+
+  Constants
+u = 45.22770823152422 * 1000 / 3600  # initial speed in m/s
+v = 40 * 1000 / 3600  # final speed in m/s
+s = 15.21713354237239  # distance in m
+
+ Calculate deceleration
+a = (v**2 - u**2) / (2 * s)
+
+ Calculate speed and control for each second
+SPEED_CONTROL = []
+BRAKE_CONTROL = []
+for t in range(int(s / u) + 1):
+    speed = u + a * t
+    SPEED_CONTROL.append(speed)
+    if a > 0:
+        BRAKE_CONTROL.append(a)
+    else:
+        BRAKE_CONTROL.append(0)
+
+ Convert speeds back to km/h
+SPEED_CONTROL = np.array(SPEED_CONTROL) * 3600 / 1000
+
+
+
+
+```Evaluate answer```: 
+
+1- Providing Code instead of specific brake and speed value.
+
+2- Neglecting Dynamic Following Distance: While not explicitly mentioned, relying solely on speed calculations ignores the need to significantly increase following distance due to reduced visibility and longer braking distances in heavy rain.
+
+
+

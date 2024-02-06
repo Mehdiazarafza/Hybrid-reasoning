@@ -151,13 +151,13 @@ For each second, we can calculate the speed as follows:
     v_2 = 44.9388 km/h - 0.2889 m/s^2 * 1 s = 44.6499 km/h
     v_3 = 44.6499 km/h - 0.2889 m/s^2 * 1 s = 44.3610 km/h
     v_4 = 44.3610 km/h - 0.2889 m/s^2 * 1 s = 44.0721 km/h
-    
+    v_4 = 44.0721 km/h - 0.2889 m/s^2 * 1 s = 40 km/h
 
-The SPEED_LIST would be [44.9388, 44.6499, 44.3610, 44.0721,...].
+The SPEED_LIST would be [44.9388, 44.6499, 44.3610, 44.0721,40].
 
 The BRAKE_LIST would depend on the specifics of your car, such as its weight and the effectiveness of its brakes. However, assuming that a brake value of 1 results in a deceleration of 1 m/s^2, you would need to apply a brake value of 0.2889 for each of the 5 seconds. So the BRAKE_LIST would be [0.2889, 0.2889, 0.2889, 0.2889, 0.2889].
 
-Therefore, the SPEED_CONTROL list is [44.9388, 44.6499, 44.3610, 44.0721,...] and the BRAKE_CONTROL list is [0.2889, 0.2889, 0.2889, 0.2889, 0.2889].
+Therefore, the SPEED_CONTROL list is [44.9388, 44.6499, 44.3610, 44.0721,40] and the BRAKE_CONTROL list is [0.2889, 0.2889, 0.2889, 0.2889, 0.2889].
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

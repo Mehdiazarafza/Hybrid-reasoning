@@ -559,18 +559,27 @@ a = (v**2 - u**2) / (2 * s)
 
  Calculate speed and control for each second
 SPEED_CONTROL = []
+
 BRAKE_CONTROL = []
+
 for t in range(int(s / u) + 1):
+
     speed = u + a * t
+    
     SPEED_CONTROL.append(speed)
+    
     if a > 0:
+    
         BRAKE_CONTROL.append(a)
+        
     else:
+    
         BRAKE_CONTROL.append(0)
+        
 
  Convert speeds back to km/h
+ 
 SPEED_CONTROL = np.array(SPEED_CONTROL) * 3600 / 1000
-
 
 
 

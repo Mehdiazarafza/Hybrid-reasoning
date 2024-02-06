@@ -184,3 +184,109 @@ These lists represent the throttle and brake settings for each tenth of a second
 
 1- Oversimplified Deceleration: Assuming a constant deceleration rate of 1 m/s^2 ignores real-world factors like, Road Condition, Driver Reaction Time.
 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Partly Sunny
+
+Answer from LLM: 
+
+
+Firstly, you should slow down your car to comply with the speed limit. The vehicle in front of you is approximately 18.72 meters away, which is a safe distance at your current speed. However, you should always be prepared to brake if the vehicle in front of you slows down or stops.
+
+To calculate the exact speed you should maintain for every subsequent second, we need to consider the following:
+
+1. Your current speed: 44.307134580384606 km/h
+2. The speed limit: 40 km/h
+3. The distance to the vehicle in front of you: 18.725628030431178 meters
+
+The speed difference between your current speed and the speed limit is 4.307134580384606 km/h. To convert this to meters per second, we multiply by 1000 and divide by 3600, which gives us approximately 1.196426272884613 m/s.
+
+Assuming you want to reach the speed limit in 5 seconds, you need to decrease your speed by approximately 0.2392852545769226 m/s every second. This is the deceleration required.
+
+Now, let's calculate the throttle and brake values. The throttle and brake values range from 0 to 1, where 0 means no throttle/brake and 1 means full throttle/brake. Assuming a linear relationship between speed and throttle/brake values, we can calculate the required values as follows:
+
+1. Current throttle value: Your current speed is 44.307134580384606 km/h, so the current throttle value is 44.307134580384606 / 100 = 0.44307134580384606.
+2. Required throttle value: The speed limit is 40 km/h, so the required throttle value is 40 / 100 = 0.4.
+
+The difference between the current and required throttle values is 0.04307134580384606. Assuming you want to reach the required throttle value in 5 seconds, you need to decrease your throttle by approximately 0.008614269160769212 every second.
+
+Similarly, the brake value required to achieve the required deceleration can be calculated as 0.2392852545769226 / 100 = 0.002392852545769226.
+
+Here are the lists you requested:
+
+1. SPEED_CONTROL: [0.43445707664307684, 0.42584280748230763, 0.4172285383215384, 0.4086142691607692, 0.4]
+2. BRAKE_CONTROL: [0, 0.0004785705091538452, 0.0009571410183076904, 0.0014357115274615356, 0.0019142820366153808]
+
+
+
+```Evaluate answer```: 
+
+1- Ignoring Visibility Impact: Partly sunny conditions bring unpredictable sun glare and shadows, significantly impacting visibility. 
+
+2- Neglecting Reaction Time: The delay between perceiving a need to slow down and actually braking is not considered
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Asnwer from LLM:
+
+
+Firstly, you should slow down your car to comply with the speed limit. The speed limit is 40 km/h and you are currently driving at 44.307134580384606 km/h. 
+
+To calculate the exact speed you should maintain for every subsequent second, we need to know the current speed of your car, the desired speed, and the time it should take to reach that speed. 
+
+Let's assume that you want to reach the speed limit in 5 seconds. 
+
+The formula to calculate the speed for every subsequent second is:
+
+v = u + at
+
+where:
+v is the final speed (which is the speed limit, 40 km/h),
+u is the initial speed (which is your current speed, 44.307134580384606 km/h),
+a is the acceleration (which we need to find), and
+t is the time (which is 5 seconds).
+
+First, we need to convert the speeds from km/h to m/s because the standard unit of speed in physics is m/s. 
+
+1 km/h = 0.277778 m/s
+
+So, the initial speed u = 44.307134580384606 km/h * 0.277778 m/s = 12.307134580384606 m/s
+And the final speed v = 40 km/h * 0.277778 m/s = 11.111111111111111 m/s
+
+Now, we can find the acceleration a:
+
+a = (v - u) / t
+a = (11.111111111111111 m/s - 12.307134580384606 m/s) / 5 s
+a = -0.239204693854719 m/s^2
+
+This means you need to decelerate at a rate of 0.239204693854719 m/s^2 to reach the speed limit in 5 seconds.
+
+Now, let's calculate the throttle and brake values. 
+
+Assuming that the maximum deceleration of the car is 1 m/s^2 when the brake is fully applied (brake = 1), and the car doesn't decelerate when the brake is not applied (brake = 0), we can find the brake value as a proportion of the maximum deceleration:
+
+brake = a / max_deceleration
+brake = -0.239204693854719 m/s^2 / -1 m/s^2
+brake = 0.239204693854719
+
+So, you should apply the brake with a force of 0.239204693854719.
+
+Since you are decelerating, you should not apply the throttle, so throttle = 0.
+
+Now, let's create the SPEED_CONTROL and BRAKE_CONTROL lists. 
+
+SPEED_CONTROL = [12.307134580384606 m/s, 12.067929886529887 m/s, 11.828725192675168 m/s, 11.589520498820449 m/s, 11.35031580496573 m/s, 11.111111111111111 m/s]
+
+BRAKE_CONTROL = [0.239204693854719, 0.239204693854719, 0.239204693854719, 0.239204693854719, 0.239204693854719, 0.239204693854719]
+
+These lists represent the speed and brake values for each second for the next 5 seconds. 
+
+
+```Evaluate answer```: 
+
+1- Unrealistic Assumptions: Assuming a fixed maximum deceleration of 1 m/s^2 ignores variations in actual braking performance depending on vehicle type, road conditions.
+
+
+

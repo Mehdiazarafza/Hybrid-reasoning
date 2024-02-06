@@ -151,7 +151,7 @@ For each second, we can calculate the speed as follows:
     v_2 = 44.9388 km/h - 0.2889 m/s^2 * 1 s = 44.6499 km/h
     v_3 = 44.6499 km/h - 0.2889 m/s^2 * 1 s = 44.3610 km/h
     v_4 = 44.3610 km/h - 0.2889 m/s^2 * 1 s = 44.0721 km/h
-    v_4 = 44.0721 km/h - 0.2889 m/s^2 * 1 s = 40 km/h
+    v_5 = 44.0721 km/h - 0.2889 m/s^2 * 1 s = 40 km/h
 
 The SPEED_LIST would be [44.9388, 44.6499, 44.3610, 44.0721,40].
 

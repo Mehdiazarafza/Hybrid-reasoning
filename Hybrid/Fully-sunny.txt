@@ -44,7 +44,7 @@ SPEED_CONTROL = [0.9776, 0.9552, 0.9328, 0.9104, 0.888]
 BRAKE_CONTROL = [0.0224, 0.0448, 0.0672, 0.0896, 0.112]
 
 Please note that these calculations are based on several assumptions and may not be accurate in real-world driving situations. Always prioritize safety and follow traffic rules.
-answr from gpt
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Firstly, you should slow down your car to comply with the speed limit. The vehicle in front of you is also a factor to consider. You should maintain a safe distance from it. 
 
 Let's calculate the exact speed you should maintain for every subsequent second. 
@@ -74,7 +74,7 @@ Assuming the throttle and brake range from 0 to 1, you should decrease the throt
 So, the SPEED_CONTROL list is [0.6145833333333334, 0.328125, 0.041666666666666664] and the BRAKE_CONTROL list is [0.3854166666666667, 0.671875, 0.9583333333333334].
 
 Please note that these calculations are based on the assumption that the car can decelerate at a rate of 1 m/s^2 and that the throttle and brake range from 0 to 1. The actual values may vary depending on the specific characteristics of your car.
-answr from gpt
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Firstly, you should slow down your car to comply with the speed limit. Secondly, you should maintain a safe distance from the vehicle in front of you. 
 
 Let's break down the calculations:
@@ -110,7 +110,7 @@ SPEED_CONTROL = [0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1, 0]
 BRAKE_CONTROL = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
 
 These lists represent a gradual decrease in throttle and increase in brake over 10 steps. You should adjust these values based on your car's response and your comfort level.
-answr from gpt
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Firstly, you should slow down to the speed limit of 40 km/h. The vehicle in front of you is 15.72 meters away, which is a safe distance if you maintain the speed limit. 
 
 To calculate the exact speed you should maintain for every subsequent second, we need to know the current speed of your car in meters per second. 

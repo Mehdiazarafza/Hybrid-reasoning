@@ -734,9 +734,14 @@ Assuming a linear relationship between speed and throttle/brake application, and
 
 Here are the lists you requested:
 
+
+SPEED_CONTROL = [0.873, 0.746, 0.619, 0.492, 0.365, 0.238, 0.111, 0]
+BRAKE_CONTROL = [0.127, 0.254, 0.381, 0.508, 0.635, 0.762, 0.889, 1]
+
+These lists represent the throttle and brake values for each subsequent second, assuming it takes 8 seconds to slow down to the speed limit. Please adjust these values as necessary based on the car's actual performance and the conditions on the road.
+
+
 ```Evaluate answer```: 
 
 1- Assumption of Full Throttle: Assuming the car is currently at full throttle (1) and no brake (0) may not be realistic, but for CARLA, we can consider it is not completely wrong.
-SPEED_CONTROL = [0.873, 0.746, 0.619, 0.492, 0.365, 0.238, 0.111, 0]
-BRAKE_CONTROL = [0.127, 0.254, 0.381, 0.508, 0.635, 0.762, 0.889, 1]
 

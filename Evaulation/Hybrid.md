@@ -104,3 +104,83 @@ So, the SPEED_CONTROL list is [0.6145833333333334, 0.328125, 0.04166666666666666
 1- Ignoring Dynamic Deceleration: The advice assumes a constant deceleration rate of 1 m/s^2, which is unrealistic. 
 
 2- Neglecting Glare and Visibility: Sunny weather often brings glare, impacting visibility.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Answer from LLM:
+
+Firstly, you should slow down your car to comply with the speed limit. Secondly, you should maintain a safe distance from the vehicle in front of you. 
+
+Let's break down the calculations:
+
+1. Your current speed is 44.98963853543074 km/h, which is approximately 12.49712181539798 m/s (since 1 km/h = 0.277778 m/s).
+2. The speed limit is 40 km/h, which is approximately 11.11111111111111 m/s.
+3. The distance to the vehicle in front of you is 15.7221828238676 meters.
+
+To calculate the speed you should maintain, we need to consider both the speed limit and the distance to the vehicle in front. 
+
+The safe following distance rule is often called the "three-second rule". This rule is designed to give you enough time to react to a sudden traffic situation. 
+
+To calculate the safe speed, we can use the formula: 
+
+Safe speed = Distance / Time
+
+Assuming you want to maintain a three-second distance from the vehicle in front, the safe speed would be:
+
+Safe speed = 15.7221828238676 meters / 3 seconds = 5.240727607955867 m/s
+
+However, this speed is lower than the speed limit. So, you should maintain the higher of the two, which is the speed limit of 11.11111111111111 m/s.
+
+Now, let's calculate how much you should decrease your speed:
+
+Decrease in speed = Current speed - Desired speed
+Decrease in speed = 12.49712181539798 m/s - 11.11111111111111 m/s = 1.38501070428687 m/s
+
+To calculate the throttle and brake values, we need to know the maximum speed of your car and its acceleration and deceleration capabilities. However, since we don't have this information, we can't provide the exact values. 
+
+But, in general, you should gradually decrease the throttle and increase the brake to reduce your speed. The exact values would depend on your car's specifications and your comfort level.
+
+SPEED_CONTROL = [0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1, 0]
+BRAKE_CONTROL = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
+
+
+```Evaluate answer```: 
+
+1-  Static Following Distance: While mentioning the 3-second rule, the advice presents it as a fixed formula (distance/time). This ignores dynamic situations
+
+2- Ignoring Dynamic Deceleration: The advice assumes a constant deceleration rate based on the calculated speed difference. 
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Answer from LLM:
+
+Firstly, you should slow down to the speed limit of 40 km/h. The vehicle in front of you is 15.72 meters away, which is a safe distance if you maintain the speed limit. 
+
+To calculate the exact speed you should maintain for every subsequent second, we need to know the current speed of your car in meters per second. 
+
+1 km = 1000 meters
+1 hour = 3600 seconds
+
+So, 44.98963853543074 km/h = 44.98963853543074 * 1000 / 3600 = 12.49712181539743 m/s
+
+And the speed limit of 40 km/h = 40 * 1000 / 3600 = 11.11111111111111 m/s
+
+The difference in speed is 12.49712181539743 - 11.11111111111111 = 1.38601070428632 m/s
+
+Assuming that the car can decelerate at a rate of 1 m/s^2 (which is a reasonable assumption for a car), it will take 1.38601070428632 seconds to slow down to the speed limit. 
+
+To calculate the exact amount of throttle and brake that should be applied at each step, we need to know the current throttle and brake settings of your car. Assuming that the throttle is currently at 1 (full throttle) and the brake is at 0 (no brake), you should gradually decrease the throttle and increase the brake over the next 1.38601070428632 seconds to slow down to the speed limit.
+
+Here are the lists:
+
+SPEED_CONTROL = [1, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1, 0]
+BRAKE_CONTROL = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
+
+These lists represent the throttle and brake settings for each tenth of a second over the next 1.38601070428632 seconds. You should adjust the throttle and brake according to these lists to slow down to the speed limit. 
+
+```Evaluate answer```: 
+
+1- Oversimplified Deceleration: Assuming a constant deceleration rate of 1 m/s^2 ignores real-world factors like, Road Condition, Driver Reaction Time.
+

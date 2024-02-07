@@ -498,10 +498,109 @@ Since the vehicle in front of you is less than this distance, you should slow do
 2- Static Safe Following Distance: The advice uses the two-second rule to determine safe following distance, which provides a general guideline('The general rule of thumb is to stay at least two seconds behind the vehicle')
 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Heavy Rainy
+
+Answer from LLM:
+
+
+Given the conditions and the information provided, here are the actions you should take:
+
+1. Slow down: Given the foggy conditions and the presence of a cyclist ahead, it's crucial to reduce your speed. This will give you more time to react if the cyclist does something unexpected. 
+
+2. Adhere to the speed limit: Your car's sensors have detected a 40 km/h speed limit sign. You should reduce your speed to comply with this limit.
+
+3. Maintain a safe distance from the cyclist: Given the cyclist is approximately 18.2 meters away, you should maintain a safe distance to avoid any potential accidents.
+
+Now, let's calculate the exact speed you should maintain for every subsequent second. 
+
+First, let's convert the speed from km/h to m/s for easier calculations. 
+
+1 km/h = 0.277778 m/s
+
+Eval 1 ) So, your current speed is 45.25227775733768 km/h = 12.57 m/s (approximately)
+
+Eval 2 )The speed limit is 40 km/h = 11.11 m/s (approximately)
+
+Let's assume you need to reduce your speed from 12.57 m/s to 11.11 m/s in 5 seconds (this is a reasonable time to slow down without causing discomfort). 
+
+Eval 3 )The change in speed (Δv) is 12.57 m/s - 11.11 m/s = 1.46 m/s
+
+The time (t) is 5 seconds.
+
+The rate of deceleration (a) can be calculated using the formula a = Δv / t
+
+Eval 4 ) So, a = 1.46 m/s / 5 s = 0.292 m/s²
+
+This means you should decrease your speed by approximately 0.292 m/s every second for the next 5 seconds to reach the speed limit of 40 km/h.
+
+
+```Evaluate answer```: 
+
+
+1- Ignoring Visibility Impact: Heavy rain significantly reduces visibility due to rain on the windshield and spray from other vehicles. This is completely ignored, neglecting the need to adapt speed even further and maintain a much larger following distance than usual
+
+2- Focusing on Speed Limit Only: While mentioning the speed limit, the text ignores crucial adjustments:
+* Reduced grip: Speed needs to be adapted below the limit due to reduced tire grip on wet roads.
+* Potential hazards: Reduced visibility might hide hazards requiring immediate speed reduction.
+
+
+3- Neglecting Dynamic Following Distance: While not explicitly mentioned, relying solely on speed calculations ignores the need to significantly increase following distance due to reduced visibility and longer braking distances in heavy rain.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Answer from LLM:
+
+
+Given the conditions and the information provided, here are the actions you should take:
+
+1. Slow down: Given the foggy conditions and the presence of a bike in front of you, it's important to reduce your speed. This will give you more time to react if the bike suddenly changes direction or stops. 
+
+2. Adhere to the speed limit: Your car's sensors have detected a 40 km/h speed limit sign. You should reduce your speed to comply with this limit.
+
+3. Keep a safe distance from the bike: The bike is approximately 18.2 meters away from your car. You should maintain a safe distance from it to avoid a collision.
+
+Now, let's calculate the exact speed you should maintain for every subsequent second. 
+
+First, let's convert the speed limit from km/h to m/s. 
+
+1 km/h = 0.277778 m/s
+
+Eval 1) So, 40 km/h = 40 * 0.277778 = 11.1111 m/s
+
+ Eval 2) You are currently driving at 45.25227775733768 km/h, which is 45.25227775733768 * 0.277778 = 12.5694 m/s.
+
+To reduce your speed from 12.5694 m/s to 11.1111 m/s, you need to decelerate. The rate of deceleration depends on various factors such as the condition of the road, the type of vehicle, etc. Let's assume a moderate deceleration rate of 1 m/s^2.
+
+The formula to calculate the final speed is:
+
+Eval 3) v = u - at
+
+where:
+v is the final speed,
+u is the initial speed,
+a is the acceleration (in this case, deceleration, so it's negative), and
+t is the time.
+
+So, for every subsequent second, your speed should be:
+
+Eval 4) v = 12.5694 - 1*t
+
+For t = 1, 2, 3, ..., until v reaches 11.1111 m/s.
+
+Eval 5) Based on these calculations, you should decrease your speed by approximately 1.4583 m/s to comply with the speed limit. This deceleration should be done gradually over a period of time to ensure a smooth and safe drive.
 
 
 
+```Evaluate answer```: 
+
+1- Overreliance on Calculations: Providing specific deceleration values based on generic assumptions is dangerous in heavy rain. Individual vehicle performance, driver skills, and road conditions (hydroplaning risk) vary significantly. 
+
+2- Unrealistic Deceleration Rate: Assuming a fixed deceleration rate of 1 m/s² ignores the impact of wet roads on braking performance. 
+
+3-  Ignoring Visibility Impact: Heavy rain significantly reduces visibility due to rain on the windshield and spray from other vehicles. 
 
 
-
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

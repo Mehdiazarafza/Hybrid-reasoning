@@ -4,34 +4,34 @@
 This repository contains outputs and evaluations of different reasoning methods for autonomous driving scenarios. 
 The repository is organized into the following directories:
 
-- **common-sense**: Contains text files with outputs from the common-sense reasoning model.
-- **arithmetic**: Contains text files with outputs from the arithmetic reasoning model.
-- **hybrid**: Contains text files with outputs from the hybrid reasoning model.
-- **evaluation**: Contains scripts and documentation for evaluating the reasoning outputs.
+- **Common-sense**: Contains text files with outputs from the common-sense reasoning model.
+- **Arithmetic**: Contains text files with outputs from the arithmetic reasoning model.
+- **Hybrid**: Contains text files with outputs from the hybrid reasoning model.
+- **Evaluation**: Contains scripts and documentation for evaluating the reasoning outputs.
 
 ## Directory Structure
 
-- **common-sense**
+- **Common-sense**
   - [rainy.txt](common-sense/rainy.txt): Output for rainy weather conditions.
   - [partly_sunny.txt](common-sense/partly_sunny.txt): Output for partly sunny weather conditions.
   - [sunny.txt](common-sense/sunny.txt): Output for sunny weather conditions.
 
-- **arithmetic**
+- **Arithmetic**
   - [rainy.txt](arithmetic/rainy.txt): Output for rainy weather conditions.
   - [partly_sunny.txt](arithmetic/partly_sunny.txt): Output for partly sunny weather conditions.
   - [sunny.txt](arithmetic/sunny.txt): Output for sunny weather conditions.
 
-- **hybrid**
+- **Hybrid**
   - [rainy.txt](hybrid/rainy.txt): Output for rainy weather conditions.
   - [partly_sunny.txt](hybrid/partly_sunny.txt): Output for partly sunny weather conditions.
   - [sunny.txt](hybrid/sunny.txt): Output for sunny weather conditions.
 
-- **evaluation**
+- **Evaluation**
   - Documentation for evaluating the reasoning outputs.
 
 
 ## Paper Reference
 
-This work is based on the research paper titled "Hybrid Reasoning Based on Large Language Models for Autonomous Car Driving" published in arXiv with the DOI 
+This repository is for the research paper titled "Hybrid Reasoning Based on Large Language Models for Autonomous Car Driving" published in arXiv with the DOI 
 https://doi.org/10.48550/arXiv.2402.13602.
 

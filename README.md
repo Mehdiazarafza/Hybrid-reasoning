@@ -19,7 +19,7 @@ The repository is organized into the following directories:
 - **Arithmetic**
   - [rainy.txt](arithmetic/rainy.txt): Output for rainy weather conditions.
   - [partly_sunny.txt](arithmetic/partly_sunny.txt): Output for partly sunny weather conditions.
-  - [sunny.txt](arithmetic/sunny.txt): Output for sunny weather conditions.
+  - [sunny.txt](Arithmetic/Fully-sunny.txt): Output for sunny weather conditions.
 
 - **Hybrid**
   - [rainy.txt](hybrid/rainy.txt): Output for rainy weather conditions.

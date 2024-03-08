@@ -2,9 +2,10 @@
 Repository for hybrid reasoning
 
 
-# Repository Name
+#  Hybrid-reasoning
 
-This repository contains implementations and evaluations of different reasoning methods for autonomous driving scenarios. The repository is organized into the following directories:
+This repository contains outputs and evaluations of different reasoning methods for autonomous driving scenarios. 
+The repository is organized into the following directories:
 
 - **common-sense**: Contains text files with outputs from the common-sense reasoning model.
 - **arithmetic**: Contains text files with outputs from the arithmetic reasoning model.
@@ -30,12 +31,3 @@ This repository contains implementations and evaluations of different reasoning 
 
 - **evaluation**
   - Documentation for evaluating the reasoning outputs.
-
-## Evaluation
-
-Please refer to the documentation in the **evaluation** directory for instructions on how to evaluate the reasoning outputs.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-

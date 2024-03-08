@@ -12,19 +12,19 @@ The repository is organized into the following directories:
 ## Directory Structure
 
 - **Common-sense**
-  - [rainy.txt](common-sense/rainy.txt): Output for rainy weather conditions.
-  - [partly_sunny.txt](common-sense/partly_sunny.txt): Output for partly sunny weather conditions.
-  - [sunny.txt](common-sense/sunny.txt): Output for sunny weather conditions.
+  - [rainy.txt](Common-sense/Heavy-rainy.txt): Output for rainy weather conditions.
+  - [partly_sunny.txt](Common-sense/Partly-sunny.txt): Output for partly sunny weather conditions.
+  - [sunny.txt](Common-sense/Fully-sunny.txt): Output for sunny weather conditions.
 
 - **Arithmetic**
-  - [rainy.txt](arithmetic/rainy.txt): Output for rainy weather conditions.
-  - [partly_sunny.txt](arithmetic/partly_sunny.txt): Output for partly sunny weather conditions.
+  - [rainy.txt](Arithmetic/Heavy-rainy.txt): Output for rainy weather conditions.
+  - [partly_sunny.txt](Arithmetic/Partly-sunny.txt): Output for partly sunny weather conditions.
   - [sunny.txt](Arithmetic/Fully-sunny.txt): Output for sunny weather conditions.
 
 - **Hybrid**
-  - [rainy.txt](hybrid/rainy.txt): Output for rainy weather conditions.
-  - [partly_sunny.txt](hybrid/partly_sunny.txt): Output for partly sunny weather conditions.
-  - [sunny.txt](hybrid/sunny.txt): Output for sunny weather conditions.
+  - [rainy.txt](Hybrid/Heavy-rain.txt): Output for rainy weather conditions.
+  - [partly_sunny.txt](Hybrid/partly-sunny.txt): Output for partly sunny weather conditions.
+  - [sunny.txt](Hybrid/Fully-sunny.txt): Output for sunny weather conditions.
 
 - **Evaluation**
   - Documentation for evaluating the reasoning outputs.

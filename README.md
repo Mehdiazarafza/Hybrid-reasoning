@@ -28,3 +28,10 @@ The repository is organized into the following directories:
 
 - **evaluation**
   - Documentation for evaluating the reasoning outputs.
+
+
+## Paper Reference
+
+This work is based on the research paper titled "Hybrid Reasoning Based on Large Language Models for Autonomous Car Driving" published in arXiv with the DOI 
+https://doi.org/10.48550/arXiv.2402.13602.
+

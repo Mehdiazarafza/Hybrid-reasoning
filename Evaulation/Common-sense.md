@@ -15,7 +15,7 @@ Answer from LLM:
 7. Use Your Car's Technology: If your car has adaptive cruise control or similar technology, consider using it to help maintain a consistent speed and safe distance from the vehicle in front of you. 
 
 
-```Wrong  Answers```: 
+```Wrong Answers```: 
 1. Slow Down: The statement "gradually decrease your speed until you reach 40 km/h" is somewhat ambiguous. It would be more precise to recommend a specific deceleration rate, such as 5 km/h per second.
 
 

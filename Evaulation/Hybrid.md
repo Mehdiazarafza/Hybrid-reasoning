@@ -20,7 +20,7 @@ Counted Answer 5) BRAKE_CONTROL = [0.1 for _ in range(2)]  # Brake should be set
 
 After 2 seconds, you should have reached the speed limit. From then on, you should adjust your speed to maintain a safe distance from the vehicle in front of you. If the vehicle in front of you is moving at a constant speed and is more than 2 seconds away, you can maintain the speed limit. If the vehicle in front of you is getting closer, you should decrease your speed. If the vehicle in front of you is getting further away, you can increase your speed up to the speed limit. The exact throttle and brake values will depend on the relative speed and distance of the vehicle in front of you.
 
-```Counted Answeruate answer```: 
+```Evaluate answer```: 
 
 1- Oversimplified Deceleration Assumption: The advice assumes a constant deceleration rate of 1 m/s^2, which is unrealistic. Real-world deceleration is typically more dynamic
 
@@ -60,7 +60,7 @@ Counted Answer 8) BRAKE_CONTROL = [0.0224, 0.0448, 0.0672, 0.0896, 0.112]
 
 
 
-```Counted Answeruate answer```: 
+```Evaluate answer```: 
 
 1- Static Following Distance: Relying solely on the 2-second rule ignores dynamic situations. Sunny weather doesn't guarantee clear visibility throughout
 2- Inaccurate Deceleration: Assuming a constant deceleration rate is unrealistic. 
@@ -99,7 +99,7 @@ Assuming the throttle and brake range from 0 to 1, you should decrease the throt
 Counted Answer 7) So, the SPEED_CONTROL list is [0.6145833333333334, 0.328125, 0.041666666666666664] and the BRAKE_CONTROL list is [0.3854166666666667, 0.671875, 0.9583333333333334].
 
 
-```Counted Answeruate answer```: 
+```Evaluate answer```: 
 
 1- Ignoring Dynamic Deceleration: The advice assumes a constant deceleration rate of 1 m/s^2, which is unrealistic. 
 
@@ -145,7 +145,7 @@ Counted Answer5 ) SPEED_CONTROL = [0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1, 
 Counted Answer 6) BRAKE_CONTROL = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
 
 
-```Counted Answeruate answer```: 
+```Evaluate answer```: 
 
 1-  Static Following Distance: While mentioning the 3-second rule, the advice presents it as a fixed formula (distance/time). This ignores dynamic situations
 
@@ -180,7 +180,7 @@ Counted Answer 5) BRAKE_CONTROL = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.
 
 These lists represent the throttle and brake settings for each tenth of a second over the next 1.38601070428632 seconds. You should adjust the throttle and brake according to these lists to slow down to the speed limit. 
 
-```Counted Answeruate answer```: 
+```Evaluate answer```: 
 
 1- Oversimplified Deceleration: Assuming a constant deceleration rate of 1 m/s^2 ignores real-world factors like, Road Condition, Driver Reaction Time.
 
@@ -220,7 +220,7 @@ Counted Answer 8) 2. BRAKE_CONTROL: [0, 0.0004785705091538452, 0.000957141018307
 
 
 
-```Counted Answeruate answer```: 
+```Evaluate answer```: 
 
 1- Ignoring Visibility Impact: Partly sunny conditions bring unpredictable sun glare and shadows, significantly impacting visibility. 
 
@@ -284,7 +284,7 @@ Counted Answer 7) BRAKE_CONTROL = [0.239204693854719, 0.239204693854719, 0.23920
 These lists represent the speed and brake values for each second for the next 5 seconds. 
 
 
-```Counted Answeruate answer```: 
+```Evaluate answer```: 
 
 1- Unrealistic Assumptions: Assuming a fixed maximum deceleration of 1 m/s^2 ignores variations in actual braking performance depending on vehicle type, road conditions.
 
@@ -314,7 +314,7 @@ Here are the lists you requested:
 Counted Answer 5) SPEED_CONTROL = [0.8763, 0.7526, 0.6289, 0.5052, 0.3815, 0.2578, 0.1341, 0.0104]
 Counted Answer 6) BRAKE_CONTROL = [0.1237, 0.2474, 0.3711, 0.4948, 0.6185, 0.7422, 0.8659, 0.9896]
 
-```Counted Answeruate answer```: 
+```Evaluate answer```: 
 
 1-  Ignoring Reaction Time: The delay between perceiving a need to slow down and actually braking is not considered
 
@@ -387,7 +387,7 @@ Counted Answer 8 ) 1. SPEED_CONTROL: [0.43445707664307684, 0.42584280748230763, 
 Counted Answer 9) 2. BRAKE_CONTROL: [0, 0.0004785705091538452, 0.0009571410183076904, 0.0014357115274615356, 0.0019142820366153808]
 
 
-```Counted Answeruate answer```: 
+```Evaluate answer```: 
 
 1-  Ignoring Reaction Time: The delay between perceiving a need to slow down and actually braking is not considered
 
@@ -449,7 +449,7 @@ Counted Answer 6) SPEED_CONTROL = [12.307134580384606 m/s, 12.067929886529887 m/
 Counted Answer 7) BRAKE_CONTROL = [0.239204693854719, 0.239204693854719, 0.239204693854719, 0.239204693854719, 0.239204693854719, 0.239204693854719]
 
 
-```Counted Answeruate answer```: 
+```Evaluate answer```: 
 
 1- Unrealistic Deceleration Rate: Assuming a fixed deceleration rate of -0.139 m/s² ignores variations in actual braking performance on uneven surfaces due to partly sunny weather.
 
@@ -517,7 +517,7 @@ Counted Answer 8)   SPEED_CONTROL = [0.9230769230769231, 0.8461538461538461, 0.7
 Counted Answer 9 )  BRAKE_CONTROL = [0.07692307692307693, 0.15384615384615385, 0.23076923076923078, 0.3076923076923077, 0.38461538461538464]
 
 
-```Counted Answeruate answer```: 
+```Evaluate answer```: 
 
 1- Unrealistic Deceleration Rate: Assuming a fixed deceleration rate ignores the impact of wet roads on braking performance.
 
@@ -593,7 +593,7 @@ SPEED_CONTROL = np.array(SPEED_CONTROL) * 3600 / 1000
 
 
 
-```Counted Answeruate answer```: 
+```Evaluate answer```: 
 
 1- Providing Code instead of specific brake and speed value.
 
@@ -655,7 +655,7 @@ The BRAKE_LIST would depend on the specifics of your car, such as its weight and
 Counted Answer 7) Therefore, the SPEED_CONTROL list is [44.9388, 44.6499, 44.3610, 44.0721, 40] and the BRAKE_CONTROL list is [0.2889, 0.2889, 0.2889, 0.2889, 0.2889].
 
 
-```Counted Answeruate answer```: 
+```Evaluate answer```: 
 
 1- It seems that there is one mathematical error in the calculation of the final velocity v_5
 
@@ -714,7 +714,7 @@ Therefore, the SPEED_CONTROL and BRAKE_CONTROL lists would look like:
 Counted Answer 6) SPEED_CONTROL = [0.884618, 0.884618, 0.884618, ...] (repeated for as many seconds as it takes to reach the desired speed)
 Counted Answer 7) BRAKE_CONTROL = [0.115382, 0.115382, 0.115382, ...] (repeated for as many seconds as it takes to reach the desired speed)
 
-```Counted Answeruate answer```: 
+```Evaluate answer```: 
 
 1-The approach of calculating the exact amount to decrease the speed of the car based on the difference between the current speed and the desired speed may not be appropriate in all driving scenarios
 
@@ -753,7 +753,7 @@ Counted Answer 6) BRAKE_CONTROL = [0.127, 0.254, 0.381, 0.508, 0.635, 0.762, 0.8
 These lists represent the throttle and brake values for each subsequent second, assuming it takes 8 seconds to slow down to the speed limit. Please adjust these values as necessary based on the car's actual performance and the conditions on the road.
 
 
-```Counted Answeruate answer```: 
+```Evaluate answer```: 
 
 1- Assumption of Full Throttle: Assuming the car is currently at full throttle (1) and no brake (0) may not be realistic, but for CARLA, we can consider it is not completely wrong.
 

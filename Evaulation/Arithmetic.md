@@ -586,7 +586,7 @@ Eval 5) Based on these calculations, you should decrease your speed by approxima
 
 ```Evaluate and Wrong Answers```: 
 
-1- Overreliance on Calculations: Providing specific deceleration values based on generic assumptions is dangerous in heavy rain. Individual vehicle performance, driver skills, and road conditions (hydroplaning risk) vary significantly. 
+1- Overreliance on Calculations: Providing specific deceleration values based on generic assumptions is dangerous in heavy rain. Individual vehicle performance, driver skills, and road conditions.
 
 2- Unrealistic Deceleration Rate: Assuming a fixed deceleration rate of 1 m/s² ignores the impact of wet roads on braking performance. 
 

@@ -15,7 +15,7 @@ Answer from LLM:
 7. Use Your Car's Technology: If your car has adaptive cruise control or similar technology, consider using it to help maintain a consistent speed and safe distance from the vehicle in front of you. 
 
 
-```Wrong Answers```: 
+```Evaluate and Wrong Answers```: 
 1. Slow Down: The statement "gradually decrease your speed until you reach 40 km/h" is somewhat ambiguous. It would be more precise to recommend a specific deceleration rate, such as 5 km/h per second.
 
 
@@ -36,7 +36,7 @@ Answer from LLM:
 
 6. Regular Checks: Regularly check your rear-view and side mirrors to be aware of the traffic around you. This will help you make safe decisions when changing lanes or slowing down.
 
-```Wrong Answers```: 
+```Evaluate and Wrong Answers```: 
 1. Slow Down: The statement "slow down your vehicle" is not specific enough.
 
 2. Keep Right: The suggestion to move to the right lane after slowing down is appropriate, but the statement "after slowing down and ensuring it's safe to do so" is not specific enough.
@@ -61,7 +61,7 @@ Answer from LLM:
 7. Stay Calm: Lastly, stay calm and composed while driving. Avoid any aggressive driving behaviors, such as tailgating, speeding, or sudden lane changes, which can increase the risk of accidents.
 
 
-```Wrong Answers```: 
+```Evaluate and Wrong Answers```: 
 
 1- Lack of Specificity in Speed Reduction: The text suggests "gradually decreasing your speed until you reach 40 km/h," which is too ambiguous.
 
@@ -79,7 +79,7 @@ Thirdly, since your car is moving in the left direction and the vehicle is on th
 Lastly, keep monitoring your car's sensors and cameras for any changes in the road conditions or traffic. Always be prepared to adjust your speed or direction based on the feedback from these systems. 
 
 
-```Wrong Answers```: 
+```Evaluate and Wrong Answers```: 
 
 1. Lack of Specificity in Speed Reduction: The text suggests "reducing speed" and "gentle application of the brakes" but doesn't specify a deceleration rate.
    
@@ -106,7 +106,7 @@ Asnwer from LLM:
 
 
 
-```Wrong Answers```: 
+```Evaluate and Wrong Answers```: 
 
 1- Lack of Specificity in Speed Reduction: The statement "gradually decrease your speed until you reach 40 km/h" is ambiguous and doesn't provide a clear target or rate for slowing down.
 

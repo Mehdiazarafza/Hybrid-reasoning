@@ -34,8 +34,8 @@ Firstly, you should slow down your car to comply with the speed limit. Secondly,
 
 Let's calculate the exact speed you should maintain for every subsequent second. 
 
-Counted Response1) 1. You are currently driving at 44.98963853543074 km/h, which is approximately 12.5 m/s.
-Counted Response 2 ) 2. The speed limit is 40 km/h, which is approximately 11.1 m/s.
+Counted Response 1) 1. You are currently driving at 44.98963853543074 km/h, which is approximately 12.5 m/s.
+Counted Response 2) 2. The speed limit is 40 km/h, which is approximately 11.1 m/s.
 3. The vehicle in front of you is 15.7221828238676 meters away.
 
 Assuming that the vehicle in front of you is moving at the same speed as the speed limit (40 km/h), you should maintain a speed slightly less than 11.1 m/s to avoid collision and comply with the speed limit.
@@ -51,6 +51,7 @@ Assuming that you can control your speed linearly, you should decrease your spee
 Now, let's calculate the throttle and brake control:
 
 Counted Response 5) 1. SPEED_LIST: As you need to decrease your speed, you should reduce the throttle. Assuming that the throttle control is linear, you should reduce it by 0.28/12.5 = 0.0224 every second.
+
 Counted Response 6) 2. BRAKE_LIST: As you need to decrease your speed, you should apply the brake. Assuming that the brake control is linear, you should apply it by 0.28/12.5 = 0.0224 every second.
 
 So, the SPEED_CONTROL and BRAKE_CONTROL lists would look like this:

@@ -138,7 +138,7 @@ Answer from LLM:
 6. Regularly check your mirrors: Regularly check your rear-view and side mirrors to be aware of other vehicles around you. This will help you to react quickly if another vehicle is approaching too fast or is about to overtake you.
 
 
- ```Evaluate answer```: 
+ ```Evaluate and Wrong Answers```: 
  
 1-  Overlooking Speed Adjustment: The statement "maintain your current speed" is potentially misleading as the driver is slightly exceeding the speed limit. It would be more accurate to recommend slowing down slightly to match the speed limit.
 
@@ -160,7 +160,7 @@ Answer from LLM:
 
 6. Follow Traffic Rules: Always adhere to traffic rules and regulations, including speed limits and road signs.
 
- ```Evaluate answer```: 
+ ```Evaluate and Wrong Answers```: 
  
  1. Speed Recommendation: The statement "gradually reduce your speed to 40 km/h" is not accurate, exact amount would be better.
      
@@ -182,7 +182,7 @@ Answer from LLM:
 
 6. Pay attention to road signs: Your car's sensors have detected a speed limit sign. Make sure you are paying attention to all road signs and adjusting your driving accordingly.
 
- ```Evaluate answer```: 
+ ```Evaluate and Wrong Answers```: 
  
 
 1- Inaccurate Safe Distance Recommendation: The statement "the recommended safe following distance is at least 2 seconds behind the vehicle in front of you" is generally correct, but it doesn't account for factors like road conditions, and weather conditions
@@ -205,7 +205,7 @@ Answer from LLM:
 5. Monitor Your Car's Sensors: Your car's sensors and cameras are there to assist you. Keep an eye on their readings and alerts to help you maintain safe driving conditions.
 
 
- ```Evaluate answer```: 
+ ```Evaluate and Wrong Answers```: 
 
 1. Lack of Specificity in Speed Reduction: The statement "gradually reduce your speed to 40 km/h or less" is too ambiguous. It would be more helpful to recommend a specific deceleration rate.
    
@@ -229,7 +229,7 @@ Asnwer from LLM:
 
 6. Use Your Car's Technology: Continue to use your car's sensors and cameras to help you maintain a safe speed and distance from other vehicles. They can also alert you to potential hazards.
 
-```Evaluate answer```: 
+```Evaluate and Wrong Answers```: 
 
 1. Inaccurate Speed Recommendation: The statement "slow down to 40 km/h" is inaccurate. The driver is currently driving at 40.23 km/h, which is slightly above the speed limit. It would be more accurate to give precisie reduce speed.
    
@@ -266,7 +266,7 @@ Answer from LLM
 
 9. Be Prepared to Stop: Given the weather conditions, be prepared to stop if visibility becomes too poor or if road conditions worsen.
 
-```Evaluate answer```: 
+```Evaluate and Wrong Answers```: 
 
  1- Inadequate Speed Reduction: The statement "immediately slow down" suggests an abrupt reduction in speed, which could be dangerous in slippery conditions.
  
@@ -300,7 +300,7 @@ Answer from LLM:
 
 10. Be Patient: Finally, remember that safety is more important than speed. Be patient, drive carefully, and don't rush.
 
-```Evaluate answer```: 
+```Evaluate and Wrong Answers```: 
 
 1- Speed Reduction: The statement "immediately reduce your speed to 40 km/h or less" suggests a sudden reduction in speed, which could be dangerous in slippery conditions. 
 
@@ -332,7 +332,7 @@ Answer from LLM:
 
 8. Avoid Sudden Movements: Try to avoid sudden steering, braking, or accelerating, as these can cause your car to skid in slippery conditions.
 
-```Evaluate answer```: 
+```Evaluate and Wrong Answers```: 
 
 
 1- Safe Distance Guidance: The statement "it's advisable to increase this distance to ensure you have enough time to react" is vague and doesn't provide a clear guideline for determining a safe following distance in heavy rain and fog.
@@ -367,7 +367,7 @@ Answer from LLM:
 8. Use Indicators: If you need to change lanes or turn, make sure to use your indicators well in advance to alert other drivers of your intentions.
 
 
-```Evaluate answer```: 
+```Evaluate and Wrong Answers```: 
 
 1- Speed Reduction: The statement "you should gradually reduce your speed until you are driving at or below 40 km/h" is too vague. It's better to recommend a specific deceleration rate.
 
@@ -399,7 +399,7 @@ Answer from LLM:
 8. Stay Calm: Lastly, stay calm and patient. Bad weather conditions can be stressful, but getting frustrated or anxious won't help the situation.
 
 
-```Evaluate answer```: 
+```Evaluate and Wrong Answers```: 
 
 1- Safe Distance Recommendation: The statement "In such weather conditions, it's recommended to maintain a safe distance of at least three times the usual distance" is overly specific and may not be applicable to all vehicles and road conditions.
 

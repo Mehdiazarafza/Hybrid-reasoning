@@ -669,7 +669,7 @@ Eval 4) In conclusion, you should decrease your speed by approximately 1.46 m/s 
 
 1- Overreliance on Calculations: Providing specific deceleration rates and stopping distances based on generic assumptions is dangerous in hazardous weather conditions.
 
-2- gnoring Dynamic Adjustments: The advice lacks guidance for continuously adjusting speed and braking based on real-time
+2- Ignoring Dynamic Adjustments: The advice lacks guidance for continuously adjusting speed and braking based on real-time
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
